@@ -1,0 +1,29 @@
+{
+  "id": "results",
+  "type": "SharedSlice",
+  "name": "Results",
+  "description": "Results",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "result": {
+          "type": "Link",
+          "config": {
+            "label": "Result",
+            "select": "document",
+            "customtypes": [
+              "result"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

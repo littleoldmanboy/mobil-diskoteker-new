@@ -1,0 +1,114 @@
+{
+  "id": "get_on_list",
+  "type": "SharedSlice",
+  "name": "GetOnList",
+  "description": "GetOnList",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading1",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "body1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body1",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph,list-item"
+          }
+        },
+        "heading2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading2",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "body2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body2",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em"
+          }
+        },
+        "heading3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading3",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "heading3"
+          }
+        },
+        "body3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body3",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph,em"
+          }
+        },
+        "heading4": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading4",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "heading4"
+          }
+        },
+        "body4": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body4",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph,strong"
+          }
+        }
+      },
+      "items": {
+        "code": {
+          "type": "Text",
+          "config": {
+            "label": "Code",
+            "placeholder": ""
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "link_text": {
+          "type": "Text",
+          "config": {
+            "label": "Link Text",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

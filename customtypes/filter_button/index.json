@@ -1,0 +1,43 @@
+{
+  "format": "custom",
+  "id": "filter_button",
+  "label": "Filter Button",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "value": {
+        "type": "Select",
+        "config": {
+          "label": "Value",
+          "placeholder": "",
+          "options": [
+            "Privatfest",
+            "Formel Fest",
+            "Offentligt Event",
+            "Nord-Midtjylland",
+            "Syddanmark",
+            "Sjælland",
+            "Pop",
+            "Classics",
+            "Elektronisk",
+            "Jazz"
+          ]
+        }
+      },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "Description",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
