@@ -115,7 +115,7 @@ export default function StepsMenu({ steps }) {
                     animate="visible"
                     exit="exit"
                     variants={fadeIn}
-                    transition={{ duration: 0.5 }}
+                    transition={{ duration: 0.4 }}
                   >
                     {/* Render button for each completed step */}
                     <button
@@ -146,7 +146,7 @@ export default function StepsMenu({ steps }) {
                       animate="visible"
                       exit="exit"
                       variants={widthExpand}
-                      transition={{ duration: 0.5 }}
+                      transition={{ duration: 0.4 }}
                     ></motion.div>
                   </motion.div>
                 );
@@ -168,7 +168,7 @@ export default function StepsMenu({ steps }) {
                   animate="visible"
                   exit="exit"
                   variants={fadeInUp}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 0.4 }}
                   onClick={() => {
                     // Set active step on content click
                     setActiveStep(index);
@@ -186,7 +186,7 @@ export default function StepsMenu({ steps }) {
                   animate="visible"
                   exit="exit"
                   variants={fadeInUp}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 0.4 }}
                 >
                   {/* Render filter buttons for each step */}
                   {index === 2 && activeStep === 2 ? (
@@ -267,7 +267,7 @@ export default function StepsMenu({ steps }) {
                       animate="visible"
                       exit="exit"
                       variants={fadeInUp}
-                      transition={{ duration: 0.5 }}
+                      transition={{ duration: 0.4 }}
                     >
                       <button
                         className="my-3 py-[15px] px-[17px] w-fit text-[12px] font-normal text-white flex tracking-wider justify-center items-center rounded-full transition-all duration-200 ease-in-out border border-[#6a6a6a] hover:bg-[#2d2e2f] bg-darkGray drop-shadow-[-3px_0.5px_6px_rgba(0,0,0,0.1)]"
@@ -291,7 +291,7 @@ export default function StepsMenu({ steps }) {
                       animate="visible"
                       exit="exit"
                       variants={fadeInUp}
-                      transition={{ duration: 0.5 }}
+                      transition={{ duration: 0.4 }}
                     >
                       <button
                         className="my-3 py-[15px] px-[17px] w-fit text-[12px] font-normal text-white flex tracking-wider justify-center items-center rounded-full transition-all duration-200 ease-in-out border border-[#6a6a6a] hover:bg-[#2d2e2f] bg-darkGray drop-shadow-[-3px_0.5px_6px_rgba(0,0,0,0.1)]"
@@ -316,7 +316,7 @@ export default function StepsMenu({ steps }) {
               animate="visible"
               exit="exit"
               variants={fadeInUp}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.4 }}
             >
               {/* Reset button */}
               <button
@@ -360,7 +360,7 @@ export default function StepsMenu({ steps }) {
                 animate="visible"
                 exit="exit"
                 variants={fadeInUp}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.4 }}
               >
                 {/* Display step type */}
                 {step.data.type}
